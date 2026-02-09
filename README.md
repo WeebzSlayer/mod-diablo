@@ -16,7 +16,8 @@ This module simulates a **Diablo-like experience** within World of Warcraft. It 
 2. Run **CMake**.
 3. **Compile** the server.
 4. Copy `conf/mod_diablo.conf` to your server's binary config directory (where `worldserver.conf` is) if the install step doesn't handle it automatically for your setup.
-
+5. Run `creature_template.sql` in your `acore.world`.
+6. Start your server and enjoy!
 ---
 
 ## 🎮 How it works (In-Game)
