@@ -72,3 +72,9 @@ If you find the server lagging with many players:
 ## 📜 Credits
 
 *   **WeebzSlayer**
+
+---
+
+**Made for AzerothCore.** ✨
+If you like this module, feel free to give it a ⭐ on GitHub!
+
