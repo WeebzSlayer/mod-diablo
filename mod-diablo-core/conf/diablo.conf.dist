@@ -1,0 +1,15 @@
+[worldserver]
+Diablo.Enable = 1
+Diablo.MovementSpeed.Boost = 1.2
+Diablo.Density.Chance = 25
+Diablo.Champion.Chance = 5
+Diablo.Champion.HealthMod = 3.0
+Diablo.Champion.DamageMod = 1.5
+Diablo.HealthGlobe.Chance = 5
+Diablo.HealthGlobe.Percent = 10
+Diablo.Cleave.Chance = 30
+Diablo.Cleave.Radius = 8.0
+Diablo.Cleave.DamagePercent = 50
+Diablo.Potion.HealPercent = 35
+Diablo.Rift.RewardItem = 49426
+Diablo.Rift.RewardCount = 1
