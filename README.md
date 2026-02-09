@@ -103,6 +103,7 @@ Transforms World of Warcraft into a fast-paced **Action RPG (ARPG)**. This modul
 ## 📜 Credits
 
    *  [WeebzSlayer](https://github.com/WeebzSlayer)
+   *  August for some ideas.
 
 ---
 
