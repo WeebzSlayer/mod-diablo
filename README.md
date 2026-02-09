@@ -4,7 +4,7 @@
 ![License](https://img.shields.io/badge/License-AGPL-red?style=for-the-badge)
 ![Module Type](https://img.shields.io/badge/Module-Gameplay-orange?style=for-the-badge)
 
-## 😈 Diablo Mode Description
+## Diablo Mode Description
 
 This module simulates a **Diablo-like experience** within World of Warcraft. It introduces mechanics such as increased monster density, elite "Champion" spawns, Nephalem Rifts, and scaling ARPG mechanics like Cleave and Percentage-based healing.
 
@@ -54,7 +54,7 @@ A custom vendor script that provides the essentials for your journey.
 *   She sells the Super Healing and Mana potions that interact with the custom scaling logic.
 
 ### 🏃 Movement Speed
-To capture the fast-paced feel of ARPGs, all players receive a **30% passive movement speed boost** (`MOVE_RUN` set to 1.3f) automatically upon login.
+To capture the fast-paced feel of ARPGs, all players receive a **30% passive movement speed boost** (`MOVE_RUN` set to 1.3f ) automatically upon login.
 
 ---
 
