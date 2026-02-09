@@ -4,38 +4,46 @@
 [![License: GNU AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-red.svg)](https://github.com/azerothcore/azerothcore-wotlk/blob/master/LICENSE)
 [![Style: ARPG](https://img.shields.io/badge/Style-Diablo--Like-orange.svg)]()
 
-Transform World of Warcraft into a fast-paced **Action RPG (ARPG)**. This module introduces core Diablo mechanics: increased monster density, scaling potions, AOE cleave logic, and Nephalem Rifts—all while maintaining server performance.
+Transforms World of Warcraft into a fast-paced **Action RPG (ARPG)**. This module introduces core Diablo mechanics: increased monster density, scaling potions, AOE cleave logic, and Nephalem Rifts—all while maintaining server performance.
 
 ---
 
 ## ✨ Core Features
 
 ### ⚔️ Combat & Mechanics
+
 *   **💥 Cleave System (Dynamic AOE):** 
     *   Every damage-dealing spell or strike has a **30% chance** to trigger a Cleave.
     *   Deals **50% of the original damage** to all enemies within **8 yards**.
     *   *Visuals:* Uses in-game spell effects to signify the blast.
+
 *   **🏃 ARPG Movement:** 
     *   Players receive a passive **+20% movement speed** boost automatically upon login.
+
 *   **❤️ Health Globes:** 
     *   Slain enemies have a **5% chance** to drop a healing surge, instantly restoring **10% of your Maximum HP**.
+
 *   **🧪 Potion Overhaul:** 
     *   Traditional flat-value healing is replaced. **Super Healing Potions** restore **35% of your Max HP**.
     *   Potions scale with your gear progress, ensuring they stay relevant from leveling to endgame.
 
 ### 👿 Monster & World Scaling
+
 *   **📈 Dynamic Density:** 
     *   Monsters have a **25% chance** to spawn a clone (+20-30% density boost).
     *   **Recursion Protection:** Clones cannot clone themselves, preventing server crashes.
+
 *   **🌟 Champion Spawns:** 
     *   Standard mobs have a **5% chance** to spawn as a "Champion."
     *   Champions have **3x Health**, **1.5x Damage**, and a larger scale (1.3x).
     *   *Visuals:* Champions are marked with a distinct visual glow/aura.
 
 ### 🌌 Nephalem Rifts & Persephone
+
 *   **Persephone (The Rift Harbinger):** 
     *   A custom vendor NPC (ID: `99000`) who sells the scaled Super Potions.
     *   **Rift System:** Talking to her allows players to enter a Nephalem Rift.
+
 *   **Rift Guardian:** 
     *   Inside the Rift, players face waves of high-density mobs leading to the **Rift Guardian** (ID: `99001`).
     *   **Performance Safeguard:** Bosses and Rift mobs use `TEMPSUMMON_TIMED_DESPAWN_OUT_OF_COMBAT` to prevent entity hoarding.
@@ -45,10 +53,14 @@ Transform World of Warcraft into a fast-paced **Action RPG (ARPG)**. This module
 ## 🚀 Installation
 
 1. **Download the Module :**
+
 2. **Database Setup :**
    *  Apply the provided SQL files to your world database in acore.world.
+
 3. **Run CMake.**
+
 4. **Compile**
+
 5. **Configuration :**
    *  Go to your server etc folder.
    *  Copy diablo.conf.dist to diablo.conf.
