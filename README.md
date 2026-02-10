@@ -62,7 +62,7 @@
 
 **Before we start I would insist grandly you get** 
     
-**🎮 [mod-individual-progression](https://github.com/ZhengPeiRu21/mod-individual-progression)**
+**🎮 [mod-autobalance](https://github.com/azerothcore/mod-autobalance)**
 
 to really reproduce the Diablo like experience combined with the 
 
