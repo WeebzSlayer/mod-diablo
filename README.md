@@ -60,7 +60,13 @@
 
 ---
 
-**Before we start I would insist grandly you get 🎮[mod-individual-progression](https://github.com/ZhengPeiRu21/mod-individual-progression) to really reproduce the Diablo like experience combined with the 👿[mod-diablo](https://github.com/WeebzSlayer/mod-diablo)**
+**Before we start I would insist grandly you get** 
+    
+    *   [mod-individual-progression](https://github.com/ZhengPeiRu21/mod-individual-progression)🎮 to really reproduce the Diablo like experience 
+        combined with the 
+    *   [mod-diablo](https://github.com/WeebzSlayer/mod-diablo)
+
+---
 
 ## 🚀 Installation
 
